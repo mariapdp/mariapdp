@@ -1,1 +1,113 @@
+      @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Big Shoulders Display", cursive;
+    height: 100px;
+    justify-content: flex-end; 
+}
+
+.menu-contexto {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-contexto ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-contexto li {
+    display: inline-block;
+    margin-right: 20px; 
+    right: 100px;
+
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: #b48dec;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;  
+  cursor: pointer;  
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: transparent;
+  color:white;
+}
+
+.menu-contexto .logo {
+    display: inline-block;
+}
+
+.menu-contexto .logo img {
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+}
+
+.menu-contexto a {
+    color: #b48dec; 
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.menu-contexto a.active {
+    color: #b48dec; 
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; 
+}
+
+.banner video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.banner .content {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.banner .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.banner .content p {
+    font-size: 1.5em;
+    color: #ffff;
+}
+
+.banner .content img {
+    width: 40px;
+    height: 40px;
+}
 
